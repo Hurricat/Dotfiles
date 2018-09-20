@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+  <menu id="apps-accessories-menu" label="Accessories">
+    <item label="URxvt">
+      <action name="Execute">
+        <command>urxvt</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="PCManFM">
+      <action name="Execute">
+        <command>pcmanfm</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="File Archiver">
+      <action name="Execute">
+        <command>xarchiver</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="apps-editors-menu" label="Editors">
+    <item label="Vim">
+      <action name="Execute">
+        <command>urxvt -e vim</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Atom">
+      <action name="Execute">
+        <command>atom</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="apps-net-menu" label="Internet">
+    <item label="Firefox">
+      <action name="Execute">
+        <command>firefox</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>Firefox</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Discord">
+      <action name="Execute">
+        <command>discord</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="apps-office-menu" label="Office">
+    <item label="LibreOffice Base">
+      <action name="Execute">
+        <command>soffice -base</command>
+      </action>
+    </item>
+    <item label="LibreOffice Calc">
+      <action name="Execute">
+        <command>soffice -calc</command>
+      </action>
+    </item>
+    <item label="LibreOffice Draw">
+      <action name="Execute">
+        <command>soffice -draw</command>
+      </action>
+    </item>
+    <item label="LibreOffice Impress">
+      <action name="Execute">
+        <command>soffice -impress</command>
+      </action>
+    </item>
+    <item label="LibreOffice Math">
+      <action name="Execute">
+        <command>soffice -math</command>
+      </action>
+    </item>
+    <item label="LibreOffice Writer">
+      <action name="Execute">
+        <command>soffice -writer</command>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="apps-multimedia-menu" label="Multimedia">
+    <item label="VLC">
+      <action name="Execute">
+        <command>vlc</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="CMus">
+      <action name="Execute">
+        <command>urxvt -e cmus</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="apps-graphics-menu" label="Graphics">
+    <item label="Gimp">
+      <action name="Execute">
+        <command>gimp</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Krita">
+      <action name="Execute">
+        <command>krita</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="apps-game-menu" label="Games">
+    <item label="Steam">
+      <action name="Execute">
+        <command>game</command>
+      </action>
+    </item>
+    <item label="OpenMW">
+      <action name="Execute">
+        <command>openmw-launcher</command>
+      </action>
+    </item>
+    <item label="Dwarf Fortress">
+      <action name="Execute">
+        <command>primusrun dwarffortress</command>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="places-personal" label="Personal">
+    <item label="Home">
+      <action name="Execute">
+        <command>pcmanfm ~</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Documents">
+      <action name="Execute">
+        <command>pcmanfm Documents</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Projects">
+      <action name="Execute">
+        <command>pcmanfm Projects</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Pictures">
+      <action name="Execute">
+        <command>pcmanfm Pictures</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Dropbox">
+      <action name="Execute">
+        <command>pcmanfm Dropbox</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Downloads">
+      <action name="Execute">
+        <command>pcmanfm Downloads</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="places-system" label="System">
+    <item label="Root">
+      <action name="Execute">
+        <command>pcmanfm /</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Browse as Root">
+      <action name="Execute">
+        <command>sudo pcmanfm</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+
+  <menu id="system-menu" label="System">
+    <item label="Openbox Configuration Manager">
+      <action name="Execute">
+        <command>obconf</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Manage Cups Printers">
+      <action name="Execute">
+        <command>xdg-open http://localhost:631/</command>
+        <startupnotify>
+          <enabled>no</enabled>
+          <icon>cups</icon>
+        </startupnotify>
+      </action>
+    </item>
+    <separator/>
+    <item label="Reconfigure Openbox">
+      <action name="Reconfigure"/>
+    </item>
+  </menu>
+
+  <menu id="root-menu" label="Openbox 3">
+    <separator label="Applications"/>
+    <menu id="apps-accessories-menu"/>
+    <menu id="apps-editors-menu"/>
+    <menu id="apps-graphics-menu"/>
+    <menu id="apps-net-menu"/>
+    <menu id="apps-office-menu"/>
+    <menu id="apps-multimedia-menu"/>
+    <menu id="apps-game-menu"/>
+    <separator label="Places"/>
+    <menu id="places-personal"/>
+    <menu id="places-system"/>
+    <separator label="System"/>
+    <menu id="system-menu"/>
+    <separator/>
+    <item label="Log Out">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>oblogout</name>
+        </startupnotify>
+        <command>oblogout</command>
+      </action>
+    </item>
+  </menu>
+
+</openbox_menu>

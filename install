@@ -1,0 +1,73 @@
+#!/bin/bash
+
+menu(){
+	echo -ne "1. Install configs\n"
+	echo -ne "2. Delete configs\n"
+	echo -ne "3. Exit\n"
+}
+
+install_config(){
+	for config in {bash,vim,X}
+	do
+		echo -ne "Installing $config ..."
+		stow -t ~ "$config"
+		sleep 1
+		echo -ne "\n"
+	done
+
+	cd config
+	for config in *
+	do
+		echo -ne "Installing $config ..."
+		stow -t ~ "$config"
+		sleep 1
+		echo -ne "\n"
+	done
+	cd ..
+
+	echo -ne "All done!\n"
+	exit
+}
+
+delete_config(){
+	for config in {bash,vim,X}
+	do
+		echo -ne "Removing $config ..."
+		stow -t ~ -D "$config"
+		sleep 1
+		echo -ne "\n"
+	done
+
+	cd config
+	for config in *
+	do
+		echo -ne "Removing $config ..."
+		stow -t ~ -D "$config"
+		sleep 1
+		echo -ne "\n"
+	done
+	cd ..
+
+	echo -ne "All done!\n"
+	exit
+}
+
+while :;
+do
+	menu
+
+	echo -ne "Make a choice:\n"
+	read option
+	echo -ne "\n"
+
+	if [[ "$option" = 1 ]];then
+		install_config
+	elif [[ "$option" = 2 ]];then
+		delete_config
+	elif [[ "$option" = 3 ]];then
+		clear
+		exit
+	fi
+
+	clear
+done
