@@ -19,9 +19,9 @@
 ~/.fehbg &
 light-locker &
 compton -o 0 -b &
-volumeicon &
-cbatticon &
-#discord &
-dropbox &
 tint2 &
 nm-applet &
+volumeicon &
+cbatticon &
+discord &
+dropbox &

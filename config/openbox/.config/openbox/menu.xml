@@ -155,6 +155,11 @@
         <command>primusrun dwarffortress</command>
       </action>
     </item>
+    <item label="Dwarf Fortress">
+      <action name="Execute">
+        <command>primusrun godot</command>
+      </action>
+    </item>
   </menu>
 
   <menu id="places-personal" label="Personal">
