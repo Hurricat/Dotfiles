@@ -18,10 +18,10 @@
 #feh --bg-center /home/cat/Pictures/black_frost.png &
 ~/.fehbg &
 light-locker &
-compton -o 0 -b &
-tint2 &
+compton &
 nm-applet &
 volumeicon &
 cbatticon &
 discord &
 dropbox &
+(sleep 2 && tint2) &

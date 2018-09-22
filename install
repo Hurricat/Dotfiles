@@ -7,7 +7,7 @@ menu(){
 }
 
 install_config(){
-	for config in {bash,vim,X}
+	for config in {bin,bash,vim,X}
 	do
 		echo -ne "Installing $config ..."
 		stow -t ~ "$config"
