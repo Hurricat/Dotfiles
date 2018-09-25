@@ -144,6 +144,16 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
+    <keybind key="W-F1">
+      <action name="MoveResizeTo">
+	<monitor>prev</monitor>
+      </action>
+    </keybind>
+    <keybind key="W-F2">
+      <action name="MoveResizeTo">
+	<monitor>next</monitor>
+      </action>
+    </keybind>
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
         <to>left</to>
