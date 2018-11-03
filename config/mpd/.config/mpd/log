@@ -3402,3 +3402,9 @@ Nov 03 16:02 : client: [60] opened from [::1]:39200
 Nov 03 16:02 : client: [61] opened from [::1]:39202
 Nov 03 16:02 : client: [62] opened from [::1]:39204
 Nov 03 16:02 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 16:05 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 03 16:05 : client: [47] closed
+Nov 03 16:05 : client: [63] opened from 127.0.0.1:50298
+Nov 03 16:11 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 03 16:11 : client: [63] closed
+Nov 03 16:11 : client: [64] opened from 127.0.0.1:50440
