@@ -3252,3 +3252,153 @@ Oct 31 19:25 : exception: Failed to open /home/cat/.config/mpd/playlists: No suc
 Oct 31 19:25 : client: [3] opened from [::1]:34474
 Oct 31 19:25 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
 Oct 31 19:25 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Oct 31 20:17 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 01 19:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 19:21 : client: [0] opened from 127.0.0.1:60830
+Nov 02 15:05 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 03 13:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 13:42 : client: [0] opened from 127.0.0.1:48070
+Nov 03 15:43 : client: [1] opened from 127.0.0.1:49838
+Nov 03 15:43 : client: [1] closed
+Nov 03 15:43 : client: [2] opened from 127.0.0.1:49840
+Nov 03 15:44 : client: [3] opened from 127.0.0.1:49870
+Nov 03 15:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 15:44 : client: [3] closed
+Nov 03 15:44 : client: [2] closed
+Nov 03 15:44 : client: [4] opened from 127.0.0.1:49872
+Nov 03 15:47 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 03 15:47 : client: [4] closed
+Nov 03 15:47 : client: [5] opened from 127.0.0.1:49902
+Nov 03 15:47 : client: [6] opened from [::1]:38876
+Nov 03 15:47 : client: [7] opened from [::1]:38878
+Nov 03 15:47 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:47 : client: [6] closed
+Nov 03 15:47 : client: [7] closed
+Nov 03 15:47 : client: [8] opened from [::1]:38880
+Nov 03 15:47 : client: [9] opened from [::1]:38882
+Nov 03 15:47 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:48 : client: [8] closed
+Nov 03 15:48 : client: [9] closed
+Nov 03 15:48 : client: [10] opened from [::1]:38884
+Nov 03 15:48 : client: [11] opened from [::1]:38886
+Nov 03 15:48 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:48 : client: [10] closed
+Nov 03 15:48 : client: [11] closed
+Nov 03 15:49 : client: [12] opened from [::1]:38906
+Nov 03 15:49 : client: [13] opened from [::1]:38908
+Nov 03 15:49 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:49 : client: [14] opened from [::1]:38910
+Nov 03 15:49 : client: [12] closed
+Nov 03 15:49 : client: [13] closed
+Nov 03 15:49 : client: [14] closed
+Nov 03 15:49 : client: [15] opened from [::1]:38916
+Nov 03 15:49 : client: [16] opened from [::1]:38918
+Nov 03 15:49 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:49 : client: [15] closed
+Nov 03 15:49 : client: [16] closed
+Nov 03 15:49 : client: [17] opened from [::1]:38922
+Nov 03 15:49 : client: [18] opened from [::1]:38924
+Nov 03 15:49 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:49 : client: [19] opened from [::1]:38928
+Nov 03 15:50 : client: [17] closed
+Nov 03 15:50 : client: [18] closed
+Nov 03 15:50 : client: [19] closed
+Nov 03 15:50 : client: [20] opened from [::1]:38936
+Nov 03 15:50 : client: [21] opened from [::1]:38938
+Nov 03 15:50 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:50 : client: [20] closed
+Nov 03 15:50 : client: [21] closed
+Nov 03 15:50 : client: [22] opened from [::1]:38942
+Nov 03 15:50 : client: [23] opened from [::1]:38944
+Nov 03 15:50 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:50 : client: [22] closed
+Nov 03 15:50 : client: [23] closed
+Nov 03 15:50 : client: [24] opened from [::1]:38950
+Nov 03 15:50 : client: [25] opened from [::1]:38952
+Nov 03 15:50 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:51 : client: [24] closed
+Nov 03 15:51 : client: [25] closed
+Nov 03 15:51 : client: [26] opened from [::1]:38968
+Nov 03 15:51 : client: [27] opened from [::1]:38970
+Nov 03 15:51 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:51 : client: [26] closed
+Nov 03 15:51 : client: [27] closed
+Nov 03 15:51 : client: [28] opened from [::1]:38976
+Nov 03 15:51 : client: [29] opened from [::1]:38978
+Nov 03 15:51 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:53 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 03 15:53 : client: [5] closed
+Nov 03 15:53 : client: [30] opened from 127.0.0.1:50054
+Nov 03 15:54 : client: [28] closed
+Nov 03 15:55 : client: [29] closed
+Nov 03 15:55 : client: [31] opened from [::1]:39042
+Nov 03 15:55 : client: [32] opened from [::1]:39044
+Nov 03 15:55 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:57 : client: [31] closed
+Nov 03 15:57 : client: [32] closed
+Nov 03 15:57 : client: [33] opened from [::1]:39098
+Nov 03 15:57 : client: [34] opened from [::1]:39100
+Nov 03 15:57 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:58 : client: [33] closed
+Nov 03 15:58 : client: [34] closed
+Nov 03 15:58 : client: [35] opened from [::1]:39110
+Nov 03 15:58 : client: [36] opened from [::1]:39112
+Nov 03 15:58 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:58 : client: [37] opened from [::1]:39114
+Nov 03 15:58 : client: [35] closed
+Nov 03 15:58 : client: [36] closed
+Nov 03 15:58 : client: [37] closed
+Nov 03 15:58 : client: [38] opened from [::1]:39116
+Nov 03 15:58 : client: [39] opened from [::1]:39120
+Nov 03 15:58 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:58 : client: [40] opened from [::1]:39122
+Nov 03 15:59 : client: [38] closed
+Nov 03 15:59 : client: [39] closed
+Nov 03 15:59 : client: [40] closed
+Nov 03 15:59 : client: [41] opened from [::1]:39128
+Nov 03 15:59 : client: [42] opened from [::1]:39130
+Nov 03 15:59 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:59 : client: [43] opened from [::1]:39132
+Nov 03 15:59 : client: [41] closed
+Nov 03 15:59 : client: [42] closed
+Nov 03 15:59 : client: [43] closed
+Nov 03 15:59 : client: [44] opened from [::1]:39134
+Nov 03 15:59 : client: [45] opened from [::1]:39136
+Nov 03 15:59 : client: [46] opened from [::1]:39138
+Nov 03 15:59 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 15:59 : player: played "Dropbox/pachelbel's Canon in D--Soothing music(the best version).mp3"
+Nov 03 15:59 : client: [47] opened from 127.0.0.1:50176
+Nov 03 15:59 : client: [30] closed
+Nov 03 15:59 : client: [44] closed
+Nov 03 15:59 : client: [45] closed
+Nov 03 15:59 : client: [46] closed
+Nov 03 15:59 : client: [48] opened from [::1]:39148
+Nov 03 15:59 : client: [49] opened from [::1]:39150
+Nov 03 15:59 : client: [50] opened from [::1]:39152
+Nov 03 15:59 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 16:00 : client: [48] closed
+Nov 03 16:00 : client: [49] closed
+Nov 03 16:00 : client: [50] closed
+Nov 03 16:00 : client: [51] opened from [::1]:39166
+Nov 03 16:00 : client: [52] opened from [::1]:39168
+Nov 03 16:00 : client: [51] closed
+Nov 03 16:00 : client: [52] closed
+Nov 03 16:00 : client: [53] opened from [::1]:39172
+Nov 03 16:00 : client: [54] opened from [::1]:39174
+Nov 03 16:00 : client: [53] closed
+Nov 03 16:00 : client: [54] closed
+Nov 03 16:00 : client: [55] opened from [::1]:39176
+Nov 03 16:00 : client: [56] opened from [::1]:39178
+Nov 03 16:01 : client: [55] closed
+Nov 03 16:01 : client: [56] closed
+Nov 03 16:01 : client: [57] opened from [::1]:39180
+Nov 03 16:01 : client: [58] opened from [::1]:39182
+Nov 03 16:01 : client: [59] opened from [::1]:39184
+Nov 03 16:01 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
+Nov 03 16:02 : client: [57] closed
+Nov 03 16:02 : client: [58] closed
+Nov 03 16:02 : client: [59] closed
+Nov 03 16:02 : client: [60] opened from [::1]:39200
+Nov 03 16:02 : client: [61] opened from [::1]:39202
+Nov 03 16:02 : client: [62] opened from [::1]:39204
+Nov 03 16:02 : exception: Failed to open /home/cat/.config/mpd/playlists: No such file or directory
