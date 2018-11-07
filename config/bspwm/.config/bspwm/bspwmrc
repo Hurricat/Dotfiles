@@ -6,7 +6,6 @@ sxhkd &
 light-locker &
 cbatticon &
 discord &
-dropbox &
 owncloud &
 mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
 ~/.config/polybar/launch.sh &
