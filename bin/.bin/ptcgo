@@ -1,0 +1,2 @@
+cd ~/.wine_ptcgo/drive_c/PTCGO/PokemonTradingCardGameOnline
+WINEPREFIX=~/.wine_ptcgo wine Pokemon\ Trading\ Card\ Game\ Online.exe

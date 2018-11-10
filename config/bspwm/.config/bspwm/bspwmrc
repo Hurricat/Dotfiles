@@ -1,0 +1,40 @@
+#! /bin/sh
+
+# autostart
+sxhkd &
+~/.fehbg &
+light-locker &
+cbatticon &
+discord &
+owncloud &
+mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
+~/.config/polybar/launch.sh &
+
+bspc monitor -d term code web social office games VII VIII cloud music
+
+bspc config border_width         2
+bspc config window_gap           10
+
+#bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# code
+bspc rule -a Atom desktop='code' follow=on
+bspc rule -a Godot desktop='code' follow=on
+
+# web
+bspc rule -a Firefox desktop='web' follow=on
+
+# social
+bspc rule -a discord desktop='social'
+
+# office
+bspc rule -a libreoffice desktop='office' state=tiled follow=on
+bspc rule -a Soffice desktop='office' state=tiled follow=on
+
+# cloud
+bspc rule -a ownCloud desktop='cloud' state=tiled
+
+# music
+bspc rule -a URxvt:Music desktop='music' follow=on

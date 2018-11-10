@@ -22,6 +22,6 @@ compton &
 nm-applet &
 volumeicon &
 cbatticon &
-discord &
+#discord &
 dropbox &
 (sleep 2 && tint2) &
