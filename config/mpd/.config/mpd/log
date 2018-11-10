@@ -5047,3 +5047,25 @@ Nov 07 14:18 : client: [36] opened from [::1]:36574
 Nov 07 14:18 : client: [36] closed
 Nov 07 14:18 : client: [35] closed
 Nov 07 14:18 : client: [37] opened from 127.0.0.1:37912
+Nov 10 16:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 16:06 : exception: Failed to decode /home/cat/Music/Podcasts/WelcomeToNightvale/16_The_Phone_Call.mp3
+Nov 10 16:06 : exception: nested: Failed to open '/home/cat/Music/Podcasts/WelcomeToNightvale/16_The_Phone_Call.mp3': No such file or directory
+Nov 10 16:06 : player: played "Podcasts/WelcomeToNightvale/16_The_Phone_Call.mp3"
+Nov 10 16:06 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 10 16:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 16:06 : avahi: Service 'Music Player @ cat-desktop' successfully established.
+Nov 10 16:06 : client: [0] opened from 127.0.0.1:51332
+Nov 10 16:06 : client: [1] opened from 127.0.0.1:51330
+Nov 10 16:06 : client: [2] opened from 127.0.0.1:51334
+Nov 10 16:06 : client: [2] closed
+Nov 10 16:06 : client: [3] opened from 127.0.0.1:51336
+Nov 10 16:06 : client: [3] closed
+Nov 10 16:09 : avahi: Client Disconnected, will reconnect shortly
+Nov 10 16:09 : client: [1] closed
+Nov 10 16:09 : client: [0] closed
+Nov 10 16:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 16:09 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 10 16:09 : client: [0] opened from 127.0.0.1:47748
+Nov 10 16:09 : avahi: Service 'Music Player @ cat-desktop' successfully established.
+Nov 10 16:09 : client: [1] opened from 127.0.0.1:47746
+Nov 10 16:09 : client: [2] opened from 127.0.0.1:47750
