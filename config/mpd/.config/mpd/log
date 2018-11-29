@@ -5047,3 +5047,72 @@ Nov 07 14:18 : client: [36] opened from [::1]:36574
 Nov 07 14:18 : client: [36] closed
 Nov 07 14:18 : client: [35] closed
 Nov 07 14:18 : client: [37] opened from 127.0.0.1:37912
+Nov 07 14:20 : client: [38] opened from [::1]:36604
+Nov 07 14:20 : client: [38] closed
+Nov 07 14:20 : client: [37] closed
+Nov 07 14:20 : client: [39] opened from 127.0.0.1:37942
+Nov 07 14:37 : client: [40] opened from 127.0.0.1:38100
+Nov 07 14:37 : client: [40] closed
+Nov 07 14:37 : client: [39] closed
+Nov 07 14:37 : client: [41] opened from 127.0.0.1:38102
+Nov 07 14:37 : client: [42] opened from 127.0.0.1:38108
+Nov 07 14:37 : client: [42] closed
+Nov 07 14:39 : client: [43] opened from 127.0.0.1:38192
+Nov 07 14:39 : client: [43] closed
+Nov 07 14:39 : client: [44] opened from 127.0.0.1:38194
+Nov 07 14:39 : client: [41] closed
+Nov 07 14:46 : client: [45] opened from 127.0.0.1:38298
+Nov 07 14:46 : client: [45] closed
+Nov 07 14:46 : client: [44] closed
+Nov 07 14:46 : client: [46] opened from 127.0.0.1:38300
+Nov 07 14:51 : client: [47] opened from 127.0.0.1:38356
+Nov 07 14:51 : client: [47] closed
+Nov 07 14:51 : client: [46] closed
+Nov 07 14:51 : client: [48] opened from 127.0.0.1:38358
+Nov 07 14:51 : client: [49] opened from 127.0.0.1:38360
+Nov 07 14:51 : client: [49] closed
+Nov 07 14:51 : client: [48] closed
+Nov 07 14:51 : client: [50] opened from 127.0.0.1:38362
+Nov 07 15:04 : player: played "Podcasts/WelcomeToNightvale/16_The_Phone_Call.mp3"
+Nov 07 15:04 : client: [50] closed
+Nov 07 15:04 : client: [51] opened from 127.0.0.1:38614
+Nov 07 15:31 : client: [52] opened from 127.0.0.1:38886
+Nov 07 15:31 : player: played "Podcasts/WelcomeToNightvale/17_Valentine.mp3"
+Nov 07 15:31 : client: [52] closed
+Nov 07 15:31 : client: [27] closed
+Nov 07 15:31 : client: [28] closed
+Nov 07 15:31 : client: [29] closed
+Nov 07 22:41 : client: [51] closed
+Nov 07 22:41 : client: [2] closed
+Nov 08 14:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 08 14:54 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Nov 08 14:54 : client: [0] opened from 127.0.0.1:43484
+Nov 08 14:54 : client: [1] opened from 127.0.0.1:43486
+Nov 08 16:43 : client: [1] closed
+Nov 08 16:43 : client: [0] closed
+Nov 09 14:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 14:00 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Nov 09 14:00 : client: [0] opened from 127.0.0.1:41312
+Nov 09 14:00 : client: [1] opened from 127.0.0.1:41314
+Nov 09 14:40 : client: [0] closed
+Nov 09 14:40 : client: [1] closed
+Nov 12 16:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 16:25 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Nov 12 16:25 : client: [0] opened from 127.0.0.1:60664
+Nov 12 16:25 : client: [1] opened from 127.0.0.1:60666
+Nov 12 16:34 : client: [0] closed
+Nov 12 16:34 : client: [1] closed
+Nov 12 21:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 21:24 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Nov 12 21:24 : client: [0] opened from 127.0.0.1:50672
+Nov 12 21:24 : client: [1] opened from 127.0.0.1:50674
+Nov 23 18:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 23 18:46 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Nov 23 18:46 : client: [0] opened from 127.0.0.1:55830
+Nov 23 18:46 : client: [1] opened from 127.0.0.1:55832
+Nov 24 02:27 : client: [0] closed
+Nov 24 02:27 : client: [1] closed
+Nov 28 23:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 28 23:32 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Nov 28 23:32 : client: [0] opened from 127.0.0.1:46792
+Nov 28 23:32 : client: [1] opened from 127.0.0.1:46794
