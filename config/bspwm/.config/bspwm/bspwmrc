@@ -10,7 +10,12 @@ owncloud &
 mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
 ~/.config/polybar/launch.sh &
 
-bspc monitor -d term code web social office games VII VIII cloud music
+if [[ $(hostname) == 'cat-laptop' ]]; then
+  bspc monitor -d term code web social office games VII VIII cloud music
+elif [[ $(hostname) == 'cat-desktop' ]]; then
+  bspc monitor DVI-I-0 -d web social cloud music
+  bspc monitor DVI-D-0 -d term code office games VII VIII
+fi
 
 bspc config border_width         2
 bspc config window_gap           10
