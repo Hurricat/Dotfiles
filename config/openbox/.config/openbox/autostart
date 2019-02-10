@@ -17,11 +17,7 @@
 #xfce-mcs-manager &
 #feh --bg-center /home/cat/Pictures/black_frost.png &
 ~/.fehbg &
-light-locker &
-compton &
 nm-applet &
 volumeicon &
 cbatticon &
-#discord &
-dropbox &
 (sleep 2 && tint2) &

@@ -318,3 +318,105 @@ Feb 06 18:26 : exception: Failed to access /home/cat/Music/Dropbox: No such file
 Feb 06 18:26 : client: [0] opened from 127.0.0.1:41596
 Feb 06 18:26 : avahi: Service 'Music Player @ cat-laptop' successfully established.
 Feb 06 18:26 : client: [1] opened from 127.0.0.1:41606
+Feb 07 22:34 : avahi: Client Disconnected, will reconnect shortly
+Feb 07 22:34 : client: [1] closed
+Feb 07 22:34 : client: [0] closed
+Feb 08 02:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 02:05 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 08 02:05 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 08 02:05 : client: [0] opened from 127.0.0.1:40506
+Feb 08 02:05 : client: [1] opened from 127.0.0.1:40508
+Feb 08 04:36 : client: [0] closed
+Feb 08 04:36 : client: [1] closed
+Feb 08 04:36 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 16:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 16:17 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 16:17 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 16:17 : client: [0] opened from 127.0.0.1:57278
+Feb 09 16:17 : client: [1] opened from 127.0.0.1:57280
+Feb 09 16:20 : client: [1] closed
+Feb 09 16:39 : client: [0] closed
+Feb 09 16:39 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 18:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 18:32 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 18:32 : client: [0] opened from 127.0.0.1:60358
+Feb 09 18:32 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 18:32 : client: [1] opened from 127.0.0.1:60368
+Feb 09 18:32 : client: [0] closed
+Feb 09 18:47 : client: [2] opened from 127.0.0.1:60558
+Feb 09 18:47 : client: [3] opened from 127.0.0.1:60560
+Feb 09 19:00 : client: [1] closed
+Feb 09 19:00 : client: [2] closed
+Feb 09 19:00 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:00 : client: [3] closed
+Feb 09 19:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:00 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:00 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:02 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:02 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:02 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:05 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:06 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:06 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:07 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:08 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:08 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:17 : client: [0] opened from 127.0.0.1:56416
+Feb 09 19:17 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:17 : client: [0] closed
+Feb 09 19:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:18 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:18 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:21 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:21 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:21 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:21 : client: [0] opened from 127.0.0.1:37262
+Feb 09 19:21 : client: [1] opened from 127.0.0.1:37274
+Feb 09 19:39 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:39 : client: [1] closed
+Feb 09 19:39 : client: [0] closed
+Feb 09 19:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:40 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:40 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:40 : client: [0] opened from 127.0.0.1:48634
+Feb 09 19:40 : client: [1] opened from 127.0.0.1:48644
+Feb 09 19:43 : client: [1] closed
+Feb 09 19:43 : client: [0] closed
+Feb 09 19:43 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:43 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:43 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:44 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 19:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 19:44 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 19:44 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 19:44 : client: [0] opened from 127.0.0.1:48252
+Feb 09 19:44 : client: [1] opened from 127.0.0.1:48254
+Feb 09 19:53 : client: [0] closed
+Feb 09 19:53 : client: [1] closed
+Feb 09 19:53 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 20:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 20:32 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 20:32 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 20:32 : client: [0] opened from 127.0.0.1:49510
+Feb 09 20:32 : client: [1] opened from 127.0.0.1:49512
+Feb 09 20:41 : client: [1] closed
+Feb 09 20:41 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 20:41 : client: [0] closed
+Feb 09 20:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 09 20:41 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 09 20:41 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 09 20:41 : client: [0] opened from 127.0.0.1:51172
+Feb 09 20:41 : client: [1] opened from 127.0.0.1:51174
+Feb 10 00:20 : avahi: Client Disconnected, will reconnect shortly
+Feb 10 00:20 : client: [0] closed
+Feb 10 00:20 : client: [1] closed
+Feb 10 02:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 02:19 : exception: Failed to access /home/cat/Music/Dropbox: No such file or directory
+Feb 10 02:19 : avahi: Service 'Music Player @ cat-laptop' successfully established.
+Feb 10 02:19 : client: [0] opened from 127.0.0.1:51310
+Feb 10 02:19 : client: [1] opened from 127.0.0.1:51312
