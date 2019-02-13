@@ -6,7 +6,8 @@ sxhkd &
 light-locker &
 cbatticon &
 discord &
-owncloud &
+# owncloud &
+pcloud &
 mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
 ~/.config/polybar/launch.sh &
 
@@ -41,6 +42,7 @@ bspc rule -a Soffice desktop='office' state=tiled follow=on
 
 # cloud
 bspc rule -a ownCloud desktop='cloud' state=tiled
+bspc rule -a pcloud desktop='cloud'
 
 # music
 bspc rule -a URxvt:Music desktop='music' follow=on
