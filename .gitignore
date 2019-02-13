@@ -1,6 +1,6 @@
-mpd/log
-mpd/database
-mpd/pid
-mpd/state
-mpd/sticker.sql
-mpd/mpd.fifo
+config/mpd/.config/mpd/log
+config/mpd/.config/mpd/database
+config/mpd/.config/mpd/pid
+config/mpd/.config/mpd/state
+config/mpd/.config/mpd/sticker.sql
+config/mpd/.config/mpd/mpd.fifo
