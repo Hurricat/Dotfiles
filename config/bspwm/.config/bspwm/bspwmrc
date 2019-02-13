@@ -8,6 +8,7 @@ cbatticon &
 discord &
 # owncloud &
 pcloud &
+unclutter &
 mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
 ~/.config/polybar/launch.sh &
 
