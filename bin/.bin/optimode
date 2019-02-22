@@ -6,6 +6,13 @@ elif [[ "$1" = "nvidia" ]]; then
     optimus-manager --switch nvidia --no-confirm
 elif [[ "$1" = "check" ]]; then
     notify-send "$(optimus-manager --print-mode)"
+elif [[ "$1" = "switch" ]]; then
+    CURMODE="$(optimus-manager --print-mode)"
+    if [[ "$CURMODE" = "Current mode : intel" ]]; then
+	optimus-manager --switch nvidia --no-confirm
+    else
+	optimus-manager --switch intel --no-confirm
+    fi
 else
     echo "Invalid Usage"
 fi
