@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ "$1" = "intel" ]]; then
+    optimus-manager --switch intel --no-confirm
+elif [[ "$1" = "nvidia" ]]; then
+    optimus-manager --switch nvidia --no-confirm
+elif [[ "$1" = "check" ]]; then
+    notify-send "$(optimus-manager --print-mode)"
+else
+    echo "Invalid Usage"
+fi
