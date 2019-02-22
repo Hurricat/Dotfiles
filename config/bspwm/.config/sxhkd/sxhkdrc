@@ -24,10 +24,10 @@ XF86AudioMute
 	pulseaudio-ctl mute
 
 XF86MonBrightnessDown
-	xbacklight -dec 10
+	light -U 5
 
 XF86MonBrightnessUp
-	xbacklight -inc 10
+	light -A 5
 
 XF86AudioStop
 	mpc stop

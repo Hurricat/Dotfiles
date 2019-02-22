@@ -4,9 +4,7 @@
 sxhkd &
 ~/.fehbg &
 light-locker &
-cbatticon &
 discord &
-# owncloud &
 pcloud &
 unclutter &
 mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
@@ -41,9 +39,12 @@ bspc rule -a discord desktop='social'
 bspc rule -a libreoffice desktop='office' state=tiled follow=on
 bspc rule -a Soffice desktop='office' state=tiled follow=on
 
+# game
+bspc rule -a ffxiv_dx11.exe desktop='games' state=fullscreen follow=on
+
 # cloud
 bspc rule -a ownCloud desktop='cloud' state=tiled
-bspc rule -a pcloud desktop='cloud'
+bspc rule -a pcloud desktop='cloud' state=pseudo_tiled
 
 # music
 bspc rule -a URxvt:Music desktop='music' follow=on
