@@ -29,7 +29,7 @@ padding-right = 5
 module-margin = 4
 
 modules-left = powermenu mpd
-modules-right = filesystem xbacklight pulseaudio laptopwlan battery date
+modules-right = filesystem light pulseaudio laptopwlan battery date
 
 wm-restack = bspwm
 
@@ -299,6 +299,18 @@ bar-fill-foreground = ${colors.barfill}
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.barempty}
+
+[module/light]
+type = custom/script
+
+exec = echo "$(light | cut -d. -f1)%"
+scroll-up = light -A 5
+scroll-down = light -U 5
+interval = 0.2
+
+format-prefix = "  "
+format-padding = 1
+label = %output%
 
 [module/cpu]
 type = internal/cpu
