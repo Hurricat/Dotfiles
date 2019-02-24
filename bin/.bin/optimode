@@ -1,18 +1,59 @@
 #!/bin/bash
 
-if [[ "$1" = "intel" ]]; then
+intel() {
     optimus-manager --switch intel --no-confirm
-elif [[ "$1" = "nvidia" ]]; then
+}
+
+nvidia() {
     optimus-manager --switch nvidia --no-confirm
-elif [[ "$1" = "check" ]]; then
+}
+
+check() {
     notify-send "$(optimus-manager --print-mode)"
-elif [[ "$1" = "switch" ]]; then
+}
+
+switch() {
     CURMODE="$(optimus-manager --print-mode)"
     if [[ "$CURMODE" = "Current mode : intel" ]]; then
 	optimus-manager --switch nvidia --no-confirm
     else
 	optimus-manager --switch intel --no-confirm
     fi
-else
-    echo "Invalid Usage"
-fi
+}
+
+help() {
+    cat << EOF
+Usage:
+    optimode [OPTION]
+    
+Options:
+    -i, --intel           Restart the login service using the iGPU
+    -n, --nvidia          Restart the login service using the NVIDIA GPU
+    -s, --switch          Restart the login service using the GPU not currently in use
+    -c, --check           Display a notification showing the currently used GPU
+    -h, --help            Display this help text
+EOF
+}
+
+case "$1" in
+    --intel|-i)
+	intel
+	;;
+    --nvidia|-n)
+	nvidia
+	;;
+    --check|-c)
+	check
+	;;
+    --switch|-s)
+	switch
+	;;
+    --help|-h)
+	help
+	;;
+    *)
+	echo "Invalid Usage"
+	echo ""
+	help
+	;;
+esac
