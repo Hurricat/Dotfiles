@@ -1,0 +1,5 @@
+[Unit]
+Description=Check if battery is low
+
+[Service]
+ExecStart=/home/cat/.bin/check-battery.sh
