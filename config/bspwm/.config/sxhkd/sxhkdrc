@@ -108,8 +108,35 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+super + {_,shift + }1
+	bspc {desktop -f,node -d} 'term'
+
+super + {_,shift + }2
+	bspc {desktop -f,node -d} 'code'
+
+super + {_,shift + }3
+	bspc {desktop -f,node -d} 'web'
+
+super + {_,shift + }4
+	bspc {desktop -f,node -d} 'social'
+
+super + {_,shift + }5
+	bspc {desktop -f,node -d} 'office'
+
+super + {_,shift + }6
+	bspc {desktop -f,node -d} 'games'
+
+super + {_,shift + }7
+	bspc {desktop -f,node -d} 'VII'
+
+super + {_,shift + }8
+	bspc {desktop -f,node -d} 'VIII'
+
+super + {_,shift + }9
+	bspc {desktop -f,node -d} 'cloud'
+
+super + {_,shift + }0
+	bspc {desktop -f,node -d} 'music'
 
 #
 # preselect
