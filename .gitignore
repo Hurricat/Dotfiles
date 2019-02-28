@@ -4,3 +4,4 @@ config/mpd/.config/mpd/pid
 config/mpd/.config/mpd/state
 config/mpd/.config/mpd/sticker.sql
 config/mpd/.config/mpd/mpd.fifo
+config/systemd/.config/systemd/user/*.target.wants
