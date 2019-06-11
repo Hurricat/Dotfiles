@@ -2,22 +2,26 @@
 
 intel() {
     optimus-manager --switch intel --no-confirm
+    bspc quit
 }
 
 nvidia() {
     optimus-manager --switch nvidia --no-confirm
+    bspc quit
 }
 
 check() {
-    notify-send "$(optimus-manager --print-mode)"
+    notify-send "Current Graphics Mode" "$(optimus-manager --print-mode | tr '\n' ' ' | awk '{print $NF}')"
 }
 
 switch() {
-    CURMODE="$(optimus-manager --print-mode)"
-    if [[ "$CURMODE" = "Current mode : intel" ]]; then
+    CURMODE="$(optimus-manager --print-mode | tr '\n' ' ' | awk '{print $NF}')"
+    if [[ "$CURMODE" = "intel" ]]; then
 	optimus-manager --switch nvidia --no-confirm
+	bspc quit
     else
 	optimus-manager --switch intel --no-confirm
+	bspc quit
     fi
 }
 

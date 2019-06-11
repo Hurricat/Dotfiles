@@ -8,4 +8,4 @@ if [[ -e $name.png ]];then
 fi
 
 import -window root $name.png
-feh $name.png
+notify-send "Screenshot Taken!" "$name.png"

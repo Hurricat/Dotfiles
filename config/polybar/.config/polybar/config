@@ -16,7 +16,7 @@ height = 32
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-font-0 = DejaVuSansCondensed:size=9;1
+font-0 = NotoSansCondensed:size=9;1
 font-1 = unifont:size=8:antialias=false;2
 font-2 = MaterialIcons:size=12;3
 font-3 = FontAwesome:size=12;2
@@ -25,8 +25,9 @@ line-size = 2
 line-color = #f00
 
 spacing = 2
-padding-right = 5
-module-margin = 4
+padding-right = 2
+padding-left = 2
+module-margin = 2
 
 modules-left = powermenu mpd
 modules-right = filesystem light pulseaudio laptopwlan battery date
@@ -41,7 +42,7 @@ height = 32
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-font-0 = DejaVuSansCondensed:size=9;1
+font-0 = NotoSansCondensed:size=9;1
 font-1 = unifont:size=8:antialias=false;2
 font-2 = MaterialIcons:size=12;3
 font-3 = FontAwesome:size=12;2
@@ -50,8 +51,9 @@ line-size = 2
 line-color = #f00
 
 spacing = 2
-padding-right = 5
-module-margin = 4
+padding-right = 2
+padding-left = 2
+module-margin = 2
 
 modules-left = powermenu mpd
 modules-right = filesystem pulseaudio desktopwlan date
@@ -66,7 +68,7 @@ height = 32
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-font-0 = DejaVuSansCondensed:size=9;1
+font-0 = NotoSansCondensed:size=9;1
 font-1 = unifont:size=8:antialias=false;2
 font-2 = MaterialIcons:size=12;3
 font-3 = FontAwesome:size=12;2
@@ -75,8 +77,9 @@ line-size = 2
 line-color = #f00
 
 spacing = 2
-padding-right = 5
-module-margin = 4
+padding-right = 2
+padding-left = 2
+module-margin = 2
 
 modules-left = powermenu mpd
 modules-right = filesystem pulseaudio desktopwlan date
@@ -91,9 +94,9 @@ bottom = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-font-0 = DejaVuSansCondensed:size=9;3
+font-0 = NotoSansCondensed:size=9;3
 font-1 = unifont:size=8:antialias=false;2
-font-2 = DejaVuSans:size=8;-1
+font-2 = NotoSans:size=8;-1
 font-3 = FontAwesome:size=10;2
 font-4 = unifont:size=8:antialias=false;4
 
@@ -101,7 +104,7 @@ line-size = 2
 line-color = #f00
 
 spacing = 3
-padding-right = 4
+padding-right = 2
 module-margin-left = 0
 module-margin-right = 6
 
@@ -119,9 +122,9 @@ bottom = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-font-0 = DejaVuSansCondensed:size=9;3
+font-0 = NotoSansCondensed:size=9;3
 font-1 = unifont:size=8:antialias=false;2
-font-2 = DejaVuSans:size=8;-1
+font-2 = NotoSans:size=8;-1
 font-3 = FontAwesome:size=10;2
 font-4 = unifont:size=8:antialias=false;4
 
@@ -147,9 +150,9 @@ bottom = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-font-0 = DejaVuSansCondensed:size=9;3
+font-0 = NotoSansCondensed:size=9;3
 font-1 = unifont:size=8:antialias=false;2
-font-2 = DejaVuSans:size=8;-1
+font-2 = NotoSans:size=8;-1
 font-3 = FontAwesome:size=10;2
 font-4 = unifont:size=8:antialias=false;4
 
@@ -192,6 +195,7 @@ ws-icon-4 = music;
 ws-icon-5 = cloud;
 ws-icon-6 = games;
 ws-icon-7 = office;
+ws-icon-8 = steam;
 ws-icon-default = 
 
 format = <label-state> <label-mode>
@@ -229,6 +233,7 @@ ws-icon-4 = music;
 ws-icon-5 = cloud;
 ws-icon-6 = games;
 ws-icon-7 = office;
+ws-icon-8 = steam;
 ws-icon-default = 
 
 format = <label-state> <label-mode>
@@ -454,8 +459,6 @@ animation-charging-framerate = 750
 
 [module/powermenu]
 type = custom/menu
-
-format-padding = 4
 
 label-open = 
 label-close = 

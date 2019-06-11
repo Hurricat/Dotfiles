@@ -3,19 +3,23 @@
 # autostart
 sxhkd &
 ~/.fehbg &
-light-locker &
+# light-locker &
+ulauncher --hide-window --hide-window &
 discord &
 pcloud &
 unclutter &
+cbatticon &
+compton &
+dunst &
 mpd_discord_richpresence --fork --no-idle --use-multiple-apps &
 ~/.config/polybar/launch.sh &
 
 if [[ $(hostname) == 'cat-laptop' ]]; then
-  bspc monitor -d term code web social office games VII VIII cloud music
+  bspc monitor -d term code web social office games steam VIII cloud music
 elif [[ $(hostname) == 'cat-desktop' ]]; then
   xset -dpms s off
   bspc monitor DVI-I-0 -d web social cloud music
-  bspc monitor DVI-D-0 -d term code office games VII VIII
+  bspc monitor DVI-D-0 -d term code office games steam VIII
 fi
 
 bspc config border_width         2
@@ -39,6 +43,9 @@ bspc rule -a discord desktop='social'
 bspc rule -a libreoffice desktop='office' state=tiled follow=on
 bspc rule -a Soffice desktop='office' state=tiled follow=on
 
+# steam
+bspc rule -a Steam desktop='steam'
+
 # game
 bspc rule -a ffxiv_dx11.exe desktop='games' state=fullscreen follow=on
 
@@ -48,3 +55,7 @@ bspc rule -a pcloud desktop='cloud' state=pseudo_tiled
 
 # music
 bspc rule -a URxvt:Music desktop='music' follow=on
+
+# misc
+bspc rule -a Ulauncher state=floating
+bspc rule -a Ulauncher border=off
