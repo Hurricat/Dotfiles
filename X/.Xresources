@@ -1,44 +1,24 @@
-﻿! Base16 Eighties
-! Scheme: Chris Kempson (http://chriskempson.com)
+﻿*.foreground:   #d2d2d2
+*.background:   #383c4a
+*.cursorColor:  #d2d2d2
 
-#define base00 #303030
-#define base01 #302e00
-#define base02 #5f5b17
-#define base03 #6c6823
-#define base04 #86813b
-#define base05 #ffffff
-#define base06 #ccc37a
-#define base07 #faf0a5
-#define base08 #c35359
-#define base09 #b36144
-#define base0A #a88339
-#define base0B #18974e
-#define base0C #75a738
-#define base0D #477ca1
-#define base0E #6c71c4
-#define base0F #b3588e
+*.color0:       #383c4a
+*.color1:       #9a4138
+*.color2:       #4bec90
+*.color3:       #d8d782
+*.color4:       #5294e2
+*.color5:       #ce50dd
+*.color6:       #6be5e7
+*.color7:       #cccccc
 
-*.foreground:   base05
-*.background:   base00
-*.cursorColor:  base05
-
-*.color0:       base00
-*.color1:       base08
-*.color2:       base0B
-*.color3:       base0A
-*.color4:       base0D
-*.color5:       base0E
-*.color6:       base0C
-*.color7:       base05
-
-*.color8:       base03
-*.color9:       base08
-*.color10:      base0B
-*.color11:      base0A
-*.color12:      base0D
-*.color13:      base0E
-*.color14:      base0C
-*.color15:      base07
+*.color8:       #404552
+*.color9:       #e7766b
+*.color10:      #3cbf75
+*.color11:      #cfcd63
+*.color12:      #579cef
+*.color13:      #e7766b
+*.color14:      #90fdff
+*.color15:      #ffffff
 
 ! Compile xft: Attempt to find a visual with the given bit depth; option -depth.
 ! URxvt*depth: bitdepth

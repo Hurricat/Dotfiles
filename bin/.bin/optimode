@@ -11,7 +11,8 @@ nvidia() {
 }
 
 check() {
-    notify-send "Current Graphics Mode" "$(optimus-manager --print-mode | tr '\n' ' ' | awk '{print $NF}')"
+    CURMODE="$(optimus-manager --print-mode | tr '\n' ' ' | awk '{print $NF}')"
+    notify-send -i $CURMODE-panel "Current Graphics Mode" "$CURMODE"
 }
 
 switch() {

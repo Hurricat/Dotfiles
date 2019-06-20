@@ -16,7 +16,7 @@ compinit
 export BROWSER="firefox"
 export EDITOR="nvim"
 export PATH="${PATH}:${HOME}/.bin"
-export PROMPT="[%n@%m %1~]$ "
+export PROMPT="[%B%F{magenta}%n%f%b@%m %F{magenta}%1~%f]$ "
 
 # Aliases
 . ${HOME}/.zsh_aliases

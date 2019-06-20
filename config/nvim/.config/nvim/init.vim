@@ -7,6 +7,6 @@ set shiftwidth=4
 set softtabstop=4
 set number
 
-color peachpuff
+color arc-dark
 
 set mouse=a

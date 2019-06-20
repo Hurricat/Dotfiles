@@ -1,12 +1,12 @@
 [colors]
-background = #303030
-background-alt = #404040
-foreground = #dfdfdf
-foreground-alt = #dfdfdf
-primary = #777777
-secondary = #e60053
-alert = #bd2c40
-barfill = #9f78e1
+background = #383c4a
+background-alt = #404552
+foreground = #d2d2d2
+foreground-alt = #d2d2d2
+primary = #cccccc
+secondary = #cccccc
+alert = #9a4138
+barfill = #5294e2
 barempty = #44
 
 [bar/laptoptop]

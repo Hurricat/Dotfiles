@@ -165,7 +165,7 @@
     max_icon_size = 48
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/Numix/16/status/:/usr/share/icons/Numix/16/devices/
+    icon_path = /usr/share/icons/Numix/32/status/:/usr/share/icons/Numix/32/devices/:/usr/share/icons/Numix/24/panel
 
     ### History ###
 
