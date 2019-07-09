@@ -2,15 +2,15 @@
 
 # autostart
 sxhkd &
-~/.fehbg &
-ulauncher --hide-window --hide-window &
-discord &
-pcloud &
-unclutter &
-cbatticon &
+#~/.fehbg &
+#ulauncher --hide-window --hide-window &
+#discord &
+#pcloud &
+#unclutter &
+#cbatticon &
 compton &
-dunst &
-~/.config/polybar/launch.sh &
+#dunst &
+#~/.config/polybar/launch.sh &
 
 if [[ $(hostname) == 'cat-laptop' ]]; then
   bspc monitor -d term code web social office games steam VIII cloud music

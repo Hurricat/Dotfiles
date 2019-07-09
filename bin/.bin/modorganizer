@@ -1,0 +1,5 @@
+#!/bin/sh
+cd /home/cat/.steam/steam/steamapps/compatdata/489830/pfx/drive_c/Modding/MO2
+env WINEPREFIX=/home/cat/.steam/steam/steamapps/compatdata/489830/pfx python movfs4l.py --wineuser cat --game SkyrimSE --unvfs
+env WINEPREFIX=/home/cat/.steam/steam/steamapps/compatdata/489830/pfx /home/cat/.local/share/Steam/steamapps/common/Proton\ 4.2/dist/bin/wine /home/cat/.steam/steam/steamapps/compatdata/489830/pfx/drive_c/Modding/MO2/ModOrganizer.exe
+env WINEPREFIX=/home/cat/.steam/steam/steamapps/compatdata/489830/pfx python movfs4l.py --wineuser cat --game SkyrimSE

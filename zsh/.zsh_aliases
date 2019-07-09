@@ -1,2 +1,5 @@
 alias ls="ls --color=auto"
 alias vim="nvim"
+alias check50="python -m check50"
+alias submit50="python -m submit50"
+alias style50="python -m style50"
