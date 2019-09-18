@@ -20,4 +20,5 @@
 nm-applet &
 volumeicon &
 cbatticon &
+ulauncher &
 (sleep 2 && tint2) &

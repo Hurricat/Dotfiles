@@ -8,4 +8,4 @@ tmux splitw -v -p 33 -t Music 'ncmpcpp -s visualizer'
 tmux selectp -U
 tmux selectp -L
 
-urxvt -name Music -e tmux attach-session -t Music
+kitty --name='Music' -e tmux attach-session -t Music

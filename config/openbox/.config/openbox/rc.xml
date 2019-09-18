@@ -31,8 +31,8 @@
     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Numix</name>
-    <titleLayout>NLIMC</titleLayout>
+    <name>Arc-Dark</name>
+    <titleLayout>NLIC</titleLayout>
     <!-- available characters are NDSLIMC, each can occur at most once. N: window icon L: window label (AKA title). I: iconify M: maximize C: close S: shade (roll up/down) D: omnipresent (on all desktops). -->
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -146,12 +146,12 @@
     <!-- Keybindings for desktop switching -->
     <keybind key="W-F1">
       <action name="MoveResizeTo">
-	<monitor>prev</monitor>
+        <monitor>prev</monitor>
       </action>
     </keybind>
     <keybind key="W-F2">
       <action name="MoveResizeTo">
-	<monitor>next</monitor>
+        <monitor>next</monitor>
       </action>
     </keybind>
     <keybind key="C-A-Left">
@@ -242,18 +242,10 @@
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="W-d">
-      <action name="ToggleShowDesktop"/>
-    </keybind>
+    <keybind key="W-d"><action name="ToggleShowDesktop"/></keybind>
     <!-- Keybindings for windows -->
-    <keybind key="S-W-q">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
-    </keybind>
+    <keybind key="S-W-q"><action name="Close"/></keybind>
+    <keybind key="A-Escape"><action name="Lower"/><action name="FocusToBottom"/><action name="Unfocus"/></keybind>
     <keybind key="A-space">
       <action name="ShowMenu">
         <menu>client-menu</menu>
@@ -262,56 +254,32 @@
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
+        <finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions>
       </action>
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
+        <finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions>
       </action>
     </keybind>
     <keybind key="C-A-Tab">
       <action name="NextWindow">
         <panels>yes</panels>
         <desktop>yes</desktop>
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
+        <finalactions><action name="Focus"/><action name="Raise"/><action name="Unshade"/></finalactions>
       </action>
     </keybind>
     <!-- Keybindings for window snapping -->
-    <keybind key="W-Left">
-      <action name="UnmaximizeFull"/>
-      <action name="MaximizeVert"/>
+    <keybind key="W-Left"><action name="UnmaximizeFull"/><action name="MaximizeVert"/>
       <action name="MoveResizeTo">
         <width>50%</width>
-      </action>
-      <action name="MoveToEdgeWest"/>
-    </keybind>
-    <keybind key="W-Right">
-      <action name="UnmaximizeFull"/>
-      <action name="MaximizeVert"/>
+      </action><action name="MoveToEdgeWest"/></keybind>
+    <keybind key="W-Right"><action name="UnmaximizeFull"/><action name="MaximizeVert"/>
       <action name="MoveResizeTo">
         <width>50%</width>
-      </action>
-      <action name="MoveToEdgeEast"/>
-    </keybind>
-    <keybind key="W-Down">
-      <action name="Unmaximize"/>
-    </keybind>
-    <keybind key="W-Up">
-      <action name="Maximize"/>
-    </keybind>
+      </action><action name="MoveToEdgeEast"/></keybind>
+    <keybind key="W-Down"><action name="Unmaximize"/></keybind>
+    <keybind key="W-Up"><action name="Maximize"/></keybind>
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
@@ -455,9 +423,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>RXVT-Unicode</name>
+          <name>kitty</name>
         </startupnotify>
-        <command>urxvt</command>
+        <command>kitty</command>
       </action>
     </keybind>
     <keybind key="W-l">
