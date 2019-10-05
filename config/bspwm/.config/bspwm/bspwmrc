@@ -3,6 +3,7 @@
 # autostart
 sxhkd &
 ~/.fehbg &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 pcmanfm -d &
 discord &
 pcloud &
@@ -10,6 +11,9 @@ unclutter &
 compton &
 dunst &
 ~/.config/polybar/launch.sh &
+mopidy &
+mpd-rpc &
+mpc load Weeb\ Stuff
 
 if [[ $(hostname) == 'cat-laptop' ]]; then
   bspc monitor -d term code web social office games steam VIII cloud music
@@ -44,9 +48,11 @@ bspc rule -a Soffice desktop='office' state=tiled follow=on
 
 # steam
 bspc rule -a Steam desktop='steam'
+bspc rule -a MultiMC5 desktop='steam' follow=on
 
 # game
 bspc rule -a ffxiv_dx11.exe desktop='games' state=fullscreen follow=on
+bspc rule -a Minecraft\ 1.12.2 desktop='games' follow=on
 
 # cloud
 bspc rule -a ownCloud desktop='cloud' state=tiled

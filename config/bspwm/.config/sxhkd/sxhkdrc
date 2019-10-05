@@ -10,10 +10,10 @@ super + Return
 # super + @space
 # 	dmenu_run -fn Inconsolata-10:Bold -h 32 -sb '#666666'
 super + @space
-	rofi -show drun
+	rofi -show run
 
 super + shift + @space
-	rofi -show run
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
